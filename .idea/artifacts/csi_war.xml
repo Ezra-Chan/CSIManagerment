@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="csi:war">
+    <output-path>$PROJECT_DIR$/csi/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>csi</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="csi.war">
+      <element id="artifact" artifact-name="csi:war exploded" />
+    </root>
+  </artifact>
+</component>

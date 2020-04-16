@@ -1,0 +1,16 @@
+
+/**为了防止摄像头左右相反**/
+#video {
+    -moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+    transform:scaleX(-1);
+}
+/**目的同上**/
+canvas {
+    z-index: -1;
+}
+
+#canvas {
+    display: none;
+}
